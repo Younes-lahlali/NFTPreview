@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+*{
+    user-select: none;
+    /*border: 1px solid red;*/
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    box-shadow: 0px 0px 10px 30px hsl(212, 54%, 11%),
+    0px 0px 10px 30px hsl(207, 54%, 11%);
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagecontainer{
+    display: grid;
+    grid-template-rows: 260px;
+    grid-template-columns: 260px;
+    background-color: blueviolet;
+    width: 260px;
+    height: 260px;
+    margin: 20px auto 5px auto;
+    border-radius: 15px;
+}
+.title{
+    margin: 10px auto 0 auto;
+}
+.image{
+    grid-area: 1/1/2/2;
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    grid-area: 1/1/2/2;
+    background-color: #15b7c4;
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+}
+.view:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    grid-area: 1/1/2/2;
+    background-color: rgb(72, 191, 201, 0.5);
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+
+}
+.textcontainer{
+
+    width: 260px;
+    height: auto;
+    margin: 0px auto 20px auto;
+}
+.title{
+    color: #ffffff;
+}
+.about{
+    color: hsl(215, 51%, 70%);
+}
+.balance-timer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid aliceblue;
+}
+.madeby{
+    margin: 5px auto auto auto;
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.timer{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.balance{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-clock{
+    margin-right: 5px;
+}
+.icon-ethereum{
+    margin-right: 5px;
+}
+.creation{
+    color: hsl(215, 51%, 70%);
+}
+.youneslahlali{
+    color: hsl(178, 100%, 50%);
+}
